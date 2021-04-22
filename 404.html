@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="el" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22el%22%7D%7D">
+  <head>
+    <title>CardanoGR - CardanoGR</title><meta name="gridsome:hash" content="15f7b7d4d89221334dc508d3ab9c8f1af3dcd489"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.23"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><link rel="preload" href="/assets/css/0.styles.53d2ea8a.css" as="style"><link rel="preload" href="/assets/js/app.7f818155.js" as="script"><link rel="preload" href="/assets/js/page--node-modules--gridsome--app--pages--404-vue.20275d0a.js" as="script"><link rel="prefetch" href="/assets/js/page--src--pages--index-vue.86f6fabe.js"><link rel="prefetch" href="/assets/js/page--src--templates--ghost-post-vue.3f7b5617.js"><link rel="stylesheet" href="/assets/css/0.styles.53d2ea8a.css"><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <script>
+      // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
+      (function() {
+        window.__onThemeChange = function() {};
+        function setTheme(newTheme) {
+          window.__theme = newTheme;
+          preferredTheme = newTheme;
+          document.body.setAttribute('data-theme', newTheme);
+          window.__onThemeChange(newTheme);
+        }
+
+        var preferredTheme;
+        try {
+          preferredTheme = localStorage.getItem('theme');
+        } catch (err) { }
+
+        window.__setPreferredTheme = function(newTheme) {
+          setTheme(newTheme);
+          try {
+            localStorage.setItem('theme', newTheme);
+          } catch (err) {}
+        }
+
+        var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        darkQuery.addListener(function(e) {
+          window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+        });
+
+        setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+      })();
+    </script>
+
+    <h1 data-server-rendered="true" id="app">404 - not found</h1>
+    <script>window.__INITIAL_STATE__={"data":null,"context":{"__notFound":true}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/assets/js/app.7f818155.js" defer></script><script src="/assets/js/page--node-modules--gridsome--app--pages--404-vue.20275d0a.js" defer></script>
+  </body>
+</html>
